@@ -1,0 +1,142 @@
+@import url(https://fonts.google.com/css2?family=Bree+Serif:wght@5==&display=swap);
+
+li {
+    list-style: none;
+}
+.Header {
+    background-color: #cafabf;
+    height:  100px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-list li{
+    float:  right;
+    padding: 20px 10px 2px 10px;
+    font: 20px "Helvetica Neue",Helvetica,Arial;
+    color: aliceblue;
+}
+.header-awal{
+    font-size:56px;
+    float: left;
+    padding: 20px 20px 10px 30px;
+    font-family: 'Bree Serif';
+}
+.main {
+    background-color: #f3f3cf;
+    color: #000000;
+    padding: 120px; 
+
+}
+
+.section-title{
+    font-size: 40px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    height: 500px;
+    gap: 15px;
+}
+
+.content-item p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.copy-container h1{
+    font-size: 140px;
+}
+
+.copy-container {
+    background-color: rgb(204, 246, 232);
+    text-align: center;
+    padding: 0px;
+}
+
+.footer{
+    background-color:#5a321b;
+    color: rgb(255, 255, 255);
+    padding: 20px; 
+
+}
+
+.headerc{
+    background-color: #cafabf;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px 0px 20px 20px;
+
+}
+.header-list2 li{
+    float:  right;
+    padding: 2px;
+    font: 20px "Helvetica Neue",Helvetica,Arial;
+    color: rgb(32, 68, 100);
+    
+}
+
+.header-awal2{
+    font-size:46px;
+    float: left;
+    padding: 20px 20px 10px 30px;
+    font-family: 'Bree Serif';
+}
+
+article {
+    -webkit-flex: 2;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #ffe3e3;
+    padding: 20px;
+    font-size: 20px;
+
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+[class="titik"]{
+    padding:10px;
+}
+
+[class="titik2"]{
+    padding:3px;
+}
+
+.isiabot{
+    padding: 0px 20px;
+}
+
+.h1is{
+    font-size: 25px;
+    
+}
+
+  /* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+  
+  /* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 0;
+    background: rgb(255, 239, 239);
+    padding: 20px;
+}
+  
+  /* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding:0;
+}
+  
